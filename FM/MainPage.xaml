@@ -9,12 +9,13 @@
     <Pivot Title="Football Manager">
         <PivotItem Header="Home">
         <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel Name="TopMenu" Width="1920" Height="100" VerticalAlignment="Top"/>
+                <TextBlock>Some text 1</TextBlock>
             </Grid>
         </PivotItem>
         <PivotItem Header="Squad">
             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-                       </Grid>
+                <TextBlock>Some text 2</TextBlock>
+            </Grid>
         </PivotItem>
         <PivotItem Header="Tactics">
             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -24,7 +25,7 @@
             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             </Grid>
         </PivotItem>
-        <PivotItem Header="Statistics" Name="Stats">
+        <PivotItem Header="Statistics">
             <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
             </Grid>
         </PivotItem>
