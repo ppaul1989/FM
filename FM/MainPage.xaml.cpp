@@ -25,3 +25,4 @@ MainPage::MainPage()
 {
 	InitializeComponent();
 }
+

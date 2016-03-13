@@ -6,8 +6,27 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+    <Pivot Title="Football Manager">
+        <PivotItem Header="Home">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Name="TopMenu" Width="1920" Height="100" VerticalAlignment="Top"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Squad">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                       </Grid>
+        </PivotItem>
+        <PivotItem Header="Tactics">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Club control">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="Statistics" Name="Stats">
+            <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            </Grid>
+        </PivotItem>
+    </Pivot>
 </Page>

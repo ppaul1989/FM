@@ -16,6 +16,5 @@ namespace FM
 	{
 	public:
 		MainPage();
-
 	};
 }
