@@ -6,9 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Pivot Title="Football Manager">
-        <PivotItem Header="Home">
-        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Pivot Title="Football Manager" Foreground="White">
+        <Pivot.Background>
+            <ImageBrush Stretch="None" ImageSource="Assets/BG.jpg" AlignmentY="Top" AlignmentX="Center"/>
+        </Pivot.Background>
+        <PivotItem Header="Home" Background="Transparent">
+        <Grid>
                 <TextBlock>Some text 1</TextBlock>
             </Grid>
         </PivotItem>
