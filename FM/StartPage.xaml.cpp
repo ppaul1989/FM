@@ -28,7 +28,19 @@ StartPage::StartPage()
 }
 
 
-void FM::StartPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void FM::StartPage::NewGameButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Interop::TypeName(MainPage::typeid));
+}
+
+
+void FM::StartPage::ContinueGameButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
+
+
+void FM::StartPage::ExitGameButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	Application::Current->Exit();
 }

@@ -9,8 +9,35 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/bacground1.jpg"></ImageBrush>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/6937083-champions-league-trophy.jpg"></ImageBrush>
         </Grid.Background>
-        <Button Background="Transparent" Width="372" Height="173" Click="Button_Click" Margin="195,80,0,827" FontSize="50">New game</Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            <ColumnDefinition Width="0.7*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.4*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+        <TextBlock FontSize="80" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1">Football Manager</TextBlock>
+        <TextBlock FontSize="40" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1">Champions League Edition</TextBlock>
+        </StackPanel>
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="NewGameButton"  Click="NewGameButton_Click" Grid.Row="3" Grid.Column="1" FontSize="50" Content="New game">
+        </Button>
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="5" Grid.Column="1" Name="ContinueGameButton" FontSize="50" Content="Continue game" Click="ContinueGameButton_Click">
+        </Button>
+        <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Name="ExitGameButton" Grid.Row="7" Grid.Column="1" FontSize="50" Content="Exit" Click="ExitGameButton_Click">
+        </Button>
     </Grid>
 </Page>

@@ -8,7 +8,7 @@
     mc:Ignorable="d">
     <Pivot Title="Football Manager" Foreground="White">
         <Pivot.Background>
-            <ImageBrush Stretch="Fill" ImageSource="/Assets/BG.jpg"></ImageBrush>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/bacground1.jpg"></ImageBrush>
         </Pivot.Background>
         <PivotItem Header="Home" Foreground="White">
             <Grid Background="Transparent">

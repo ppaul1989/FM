@@ -29,6 +29,7 @@ using namespace Windows::UI::Xaml::Navigation;
 App::App()
 {
 	InitializeComponent();
+	Windows::UI::ViewManagement::ApplicationView::PreferredLaunchWindowingMode = Windows::UI::ViewManagement::ApplicationViewWindowingMode::FullScreen;
 	Suspending += ref new SuspendingEventHandler(this, &App::OnSuspending);
 }
 

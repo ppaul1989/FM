@@ -16,11 +16,13 @@
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="StartPage.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="StartPage.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
@@ -48,6 +50,12 @@
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\bacground1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StartMenuBackground.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\6937083-champions-league-trophy.jpg">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>
